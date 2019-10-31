@@ -12,7 +12,7 @@ body{
     height: 100%;
 }
 div.wrapper {
-    /* height: 100vh;  */
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,10 +40,11 @@ header {
     text-transform: uppercase;
 }
 
-/* ul{
-    align-items: center;
-    justify-content: center;
-} */
+ul{
+    height: 70vh;
+    overflow-y: scroll;
+    
+}
 ul, li{
     list-style-type: none;
     padding: 5px 0;
