@@ -9,7 +9,7 @@
     --orange: #FF9B0D;
 }
 div.wrapper {
-    height: 100vh; 
+    height: 100vmin; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,8 +24,10 @@ div.wrapper {
   
 }
 div.container {
+    margin:20px;
     width: 350px; 
     align-self: center;
+    overflow-y: auto;
 }
 header {
     text-align: center;
@@ -50,6 +52,8 @@ ul button{
     border: 0px;
     background-color: var(--red);
     color: white;
+    outline: none;
+
 }
 ul button:hover{
     background-color: #F24E50;
@@ -64,6 +68,7 @@ section input[type="text"]{
     margin:0 7px 0 0;
     font-size:14px;
     flex-grow: 5;
+    outline: none;
 }
 section input[type="submit"]{
     border: 3px solid var(--green);
@@ -73,5 +78,7 @@ section input[type="submit"]{
     font-size:14px;
     font-weight: bold;
     padding: 7px;
+    outline: none;
+
 }
 
