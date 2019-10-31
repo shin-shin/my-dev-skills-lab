@@ -8,8 +8,11 @@
     --red: #E06566;
     --orange: #FF9B0D;
 }
+body{
+    height: 100%;
+}
 div.wrapper {
-    height: 100vmin; 
+    /* height: 100vh;  */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +30,7 @@ div.container {
     margin:20px;
     width: 350px; 
     align-self: center;
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 header {
     text-align: center;
